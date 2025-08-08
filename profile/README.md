@@ -102,7 +102,7 @@ npm start
 | Rathnayaka R.M.G.S.   | 224162B            |
 | Dinujaya W\.K.T       | 224041E            |
 
-> Students – University of Moratuwa | Software Engineering Department
+> Students – University of Moratuwa | Faculty of Information Technology
 
 ---
 
