@@ -108,7 +108,7 @@ npm start
 
 ## 🌐 Live App
 
-🔗 **Client:** [https://buildify-client.vercel.app](https://buildify-client.vercel.app)
+🔗 **Client:** [https://buildify-client-d5yu.vercel.app](https://buildify-client-d5yu.vercel.app)
 
 ---
 
