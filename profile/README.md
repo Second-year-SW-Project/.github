@@ -1,90 +1,139 @@
 
 
-<h1 align="center">🧩 Buildify –  PC Builder Platform</h1>
+<h1 align="center">🟣 Buildify – PC Builder Platform ⬛</h1>
 
 <p align="center">
-  A modern, full-featured platform designed to help users build, customize, and manage PC configurations with real-time compatibility intelligence and a seamless user experience.
+  <strong>A sleek, intuitive platform for customizing your dream PC build.</strong><br/>
+  <em>Powered by technology. Designed with style. Built for performance.</em>
 </p>
 
-<p align="center">
-  <strong>Crafted with precision. Built for performance. Powered by innovation.</strong>
-</p>
+
 
 ---
 
-## 🚀 About the Project
+## 🚀 Project Overview
 
-**Buildify** is an end-to-end PC building ecosystem that empowers users to:
+**Buildify** is a cutting-edge PC building platform developed with a modern **purple & black UI**, offering:
 
-- 🛠️ Configure custom PC builds with intelligent compatibility checks
-- 🔍 Explore and compare real-world components
-- 💬 Leave reviews and feedback on parts and services
-- 📨 Submit complaints and RMA requests
-- 📊 Access a powerful admin dashboard for managing the platform
-
-Whether you're a tech enthusiast, gamer, or casual builder — Buildify simplifies your experience from idea to build.
+- ⚙️ Real-time part compatibility engine
+- 🛒 Component catalog with detailed specs
+- 🔐 Secure authentication with OTP & 2FA
+- 💬 Reviews with admin interaction
+- 📨 Complaint & RMA submission
+- 📊 Admin dashboard with metrics
 
 ---
 
 ## 🧪 Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| **Frontend** | React.js, Tailwind CSS, Material UI |
-| **Backend**  | Node.js, Express.js |
-| **Database** | MongoDB, Mongoose |
-| **Authentication** | JWT, OTP Email Verification |
-| **Cloud Services** | Cloudinary (Image Uploads), Vercel (Hosting) |
-
-
----
-
-## 👨‍💻 Meet the Team
-
-We are a team of five software engineering undergraduates from the **University of Moratuwa**, passionate about solving real-world problems through technology.
-
-| Name | Registration No |
-|------|------|
-| Muthukumarana H.T.L.H | 224129G |
-| Tharaka H.K.S | 224192P |
-| Siththara M.S.S | 224187F |
-| Rathnayaka R.M.G.S. | 224162B |
-| Dinujaya W.K.T | 224041E |
-
-> ✨ _We combine technical precision with collaborative energy to ship high-impact solutions._
+```txt
+🖥️ Frontend: React.js + Tailwind CSS + MUI (Dark Purple Theme)
+🧠 Backend: Node.js + Express.js
+💾 Database: MongoDB (Mongoose ODM)
+🔐 Auth: JWT + Email OTP + TOTP 2FA
+🌩️ Cloud: Cloudinary (uploads), Vercel (frontend), Render (backend)
+````
 
 ---
 
-## 📸 Preview
+## 🔧 Setup Instructions
 
-<!-- Replace with actual screenshots or screen recordings -->
+### 📁 Clone Repositories
+
+```bash
+git clone https://github.com/Second-year-SW-Project/Buildify-Client.git
+git clone https://github.com/Second-year-SW-Project/Buildify-Server.git
+```
+
+### 🖼️ Client Setup
+
+```bash
+cd Buildify-Client
+npm install
+```
+
+**Client `.env`**
+
+```env
+VITE_API_BASE_URL=http://localhost:5000/api
+VITE_CLOUDINARY_UPLOAD_PRESET=your_preset
+VITE_CLOUDINARY_CLOUD_NAME=your_cloud_name
+```
+
+```bash
+npm run dev
+```
+
+### ⚙️ Server Setup
+
+```bash
+cd Buildify-Server
+npm install
+```
+
+**Server `.env`**
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_email_password
+CLOUDINARY_CLOUD_NAME=your_cloud
+CLOUDINARY_API_KEY=your_key
+CLOUDINARY_API_SECRET=your_secret
+```
+
+```bash
+npm start
+```
+
+---
+
+
+
+## 👨‍💻 Our Team
+
+| 👤 Name               | 🎓 Registration No |
+| --------------------- | ------------------ |
+| Muthukumarana H.T.L.H | 224129G            |
+| Tharaka H.K.S         | 224192P            |
+| Siththara M.S.S       | 224187F            |
+| Rathnayaka R.M.G.S.   | 224162B            |
+| Dinujaya W\.K.T       | 224041E            |
+
+> Students – University of Moratuwa | Software Engineering Department
+
+---
+
+## 🌐 Live App
+
+🔗 **Client:** [https://buildify-client.vercel.app](https://buildify-client.vercel.app)
+
+---
+
+## 🧩 Repositories
+
+* 🔮 [Frontend – Buildify-Client](https://github.com/Second-year-SW-Project/Buildify-Client)
+* 🧠 [Backend – Buildify-Server](https://github.com/Second-year-SW-Project/Buildify-Server)
+
+---
+
+## ⭐ Show Some Love
+
+If you find this project helpful:
+
+* ⭐ Star the repo
+* 🧑‍💻 Follow the team
+* 📣 Share it with others
+
+---
+
 <p align="center">
-  <img src="https://yourdomain.com/dashboard-preview.png" width="800px" alt="Buildify Dashboard" />
+  <i>“Design is not just what it looks like and feels like. Design is how it works.”</i><br/>
+  — Steve Jobs
 </p>
+```
 
 ---
 
-## 📚 Documentation
-
-> Coming soon – complete API documentation, architecture diagrams, and usage guides.
-
----
-
-## 📬 Link
-
-- 🌐 **Website**: [https://buildify-client.vercel.app/](https://buildify-client.vercel.app/)
-
----
-
-## ⭐ Show Your Support
-
-If you find our work valuable:
-- Give this repository a ⭐ star
-- Share with your developer network
-- Follow our journey on [GitHub](https://github.com/TeamSaga)
-
----
-
-<p align="center">
-  <i>“The details are not the details. They make the design.” – Charles Eames</i>
-</p>
